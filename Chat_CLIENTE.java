@@ -11,13 +11,11 @@ public class Chat_CLIENTE {
         Scanner sc = new Scanner(System.in); // Instanciar Scanner   
           
         System.out.println("Introduzca la dirección IP del servidor:");
-        String ip;
-        //ip = sc.next();
+        String ip = sc.next();
         ip = "192.168.0.1";
         
         System.out.println("Introduzca el puerto del servidor:");
-        int puerto;
-        //puerto = sc.nextInt();
+        int puerto = sc.nextInt();
         puerto = 6666;
         
         // ESTABLECER NICKNAME                       

@@ -15,8 +15,7 @@ public class Chat_SERVER {
         Scanner sc = new Scanner(System.in); // Instanciar Scanner
         
         System.out.println("SERVER: Asigna puerto al servidor: ");
-        int puerto = 6666;
-        //int puerto = sc.nextInt();
+        int puerto = sc.nextInt();
         
         ServerSocket serverSocket = null;         
 

@@ -7,7 +7,7 @@ public class Chat_SERVER {
     // Array con todos los clientes conectados al servidor
     public static List<Cliente> clientes = new ArrayList<>(); 
     
-    private static final int MAX_USUARIOS = 1; // Numero fijo de usuarios maximos simultaneos
+    private static final int MAX_USUARIOS = 10; // Numero fijo de usuarios maximos simultaneos
     
     
     public static void main(String[] args) {
